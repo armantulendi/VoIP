@@ -1,5 +1,4 @@
-
-
+<#macro page>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +6,7 @@
     <title>Greeting page</title>
 </head>
 <body>
-<div>Hello,user</div>
-<a href="/main">Main page</a>
+ <#nested>
 </body>
 </html>
+</#macro>
